@@ -6,6 +6,11 @@
 |--------|--------|
 | `swipe left` | Web browser go back|
 | `swipe right` |Web browser go forward|
+| `swipe up` | spread windows|
+| `swipe down` | spread windows|
+| `swipe left 4 fingers `| View split on left|
+| `swipe right 4 fingers`| View split on right|
+
 
 [Libinput-gestures][REPO] is a utility which reads [libinput
 gestures](https://wayland.freedesktop.org/libinput/doc/latest/gestures.html)
