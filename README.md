@@ -1,4 +1,4 @@
-### LIBINPUT-GESTURES(Edited)
+### LIBINPUT-GESTURES (Edited)
 
 **The code below has been modified by personal preference.**
 **The changes are as follows.**
