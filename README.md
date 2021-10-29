@@ -1,4 +1,11 @@
-### LIBINPUT-GESTURES
+### LIBINPUT-GESTURES(Edited)
+
+**The code below has been modified by personal preference.**
+**The changes are as follows.**
+| Gesture| mapping|
+|--------|--------|
+| `swipe left` | Web browser go back|
+| `swipe right` |Web browser go forward|
 
 [Libinput-gestures][REPO] is a utility which reads [libinput
 gestures](https://wayland.freedesktop.org/libinput/doc/latest/gestures.html)
