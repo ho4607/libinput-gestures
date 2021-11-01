@@ -4,8 +4,8 @@
 **The changes are as follows.**
 | Gesture| mapping|
 |--------|--------|
-| `swipe up 3 fingers` | spread windows|
-| `swipe down 3 fingers` | spread windows|
+| `swipe up 3 fingers` | Hide all windows|
+| `swipe down 3 fingers` | Hide all windows|
 | `swipe left 3 fingers` | Web browser go back|
 | `swipe right 3 fingers` |Web browser go forward|
 | `swipe up 4 fingers `| Maximize window|
