@@ -2,7 +2,7 @@
 
 **The code below has been modified by personal preference.**
 **The changes are as follows.**
-| Gesture| mapping|
+| Gesture| Mapping|
 |--------|--------|
 | `swipe up 3 fingers` | spread windows|
 | `swipe down 3 fingers` | spread windows|
