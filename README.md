@@ -4,10 +4,12 @@
 **The changes are as follows.**
 | Gesture| mapping|
 |--------|--------|
-| `swipe left` | Web browser go back|
-| `swipe right` |Web browser go forward|
-| `swipe up` | spread windows|
-| `swipe down` | spread windows|
+| `swipe up 3 fingers` | spread windows|
+| `swipe down 3 fingers` | spread windows|
+| `swipe left 3 fingers` | Web browser go back|
+| `swipe right 3 fingers` |Web browser go forward|
+| `swipe up 4 fingers `| Maximize window|
+| `swipe down 4 fingers`| restore window|
 | `swipe left 4 fingers `| View split on left|
 | `swipe right 4 fingers`| View split on right|
 
@@ -33,7 +35,7 @@ This utility is developed and tested on Arch linux using the GNOME 3 DE
 on Xorg and Wayland. It works somewhat incompletely on Wayland (via
 XWayland). See the WAYLAND section below and the comments in the default
 `libinput-gestures.conf` file. It has been [reported to work with
-KDE](http://www.lorenzobettini.it/2017/02/touchpad-gestures-in-linux-kde-with-libinput-gestures/).
+KDE](http://www.lorenzobettini.it   /2017/02/touchpad-gestures-in-linux-kde-with-libinput-gestures/).
 I am not sure how well this will work on all Linux systems and DE's etc.
 
 The latest version and documentation is available at
