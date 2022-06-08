@@ -46,13 +46,6 @@ https://github.com/bulletmark/libinput-gestures.
 You need python 3.5 or later, python2 is not supported. You also need
 libinput release 1.0 or later.
 
-You **must be a member of the _input_ group** to have permission
-to read the touchpad device:
-
-    sudo gpasswd -a $USER input
-
-After executing the above command, reboot your system.
-
 Most/many users will require to install the following although neither are
 actual dependencies because some custom configurations will not require
 them. If you are unsure initially, install both of them.
@@ -84,6 +77,15 @@ Install this software:
     git clone https://github.com/bulletmark/libinput-gestures.git
     cd libinput-gestures
     sudo make install (or sudo ./libinput-gestures-setup install)
+    
+You **must be a member of the _input_ group** to have permission
+to read the touchpad device:
+
+    sudo gpasswd -a $USER input
+    newgrp input
+
+
+After executing the above command, reboot your system.
 
 ### CONFIGURATION
 
